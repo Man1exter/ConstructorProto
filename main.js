@@ -9,13 +9,21 @@ function Menu(name,price){
     this.price = price;
 }
 Menu.prototype.dishes = function () {
-textEle.innerText = `This special is ${name} with price ${price}`;
+textEle.innerText = `This special is ${this.name} with price ${this.price}`;
 }
 
 const newDish = new Menu('Pizza',25);
 const newDish2 = new Menu('Burger',12);
 const newDish3 = new Menu('Nuggets',10);
 
-newDish.dishes();
-newDish2.dishes();
-newDish3.dishes();
+
+
+btnAmazing.addEventListener("click", function (){
+    newDish.dishes();
+})
+btnAwesome.addEventListener("click", function(){
+    newDish2.dishes();
+});
+btnAttention.addEventListener("click", function () {
+    newDish3.dishes();
+});
