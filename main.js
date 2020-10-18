@@ -9,7 +9,7 @@ function Menu(name,price){
     this.price = price;
 }
 Menu.prototype.dishes = function () {
-
+textEle.innerText = `This special is ${name} with price ${price}`;
 }
 
 const newDish = new Menu('Pizza',25);
