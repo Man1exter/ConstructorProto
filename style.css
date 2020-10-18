@@ -27,3 +27,15 @@ body{
     background: linear-gradient(to left,rgb(0, 0, 255),rgb(0, 191, 255));
     font-size: 40px;
 }
+button{
+    position: relative;
+    top: 30%;
+    left: 11%;
+    transform: translate(-50%, -50%);
+    border: 3px solid green;
+    height: 50px;
+    width: 130px;
+    cursor: pointer;
+    margin-left: 50px;
+    font-size: 30px;
+}
