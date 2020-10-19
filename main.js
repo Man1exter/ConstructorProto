@@ -40,3 +40,10 @@ const user = {
         brand: 'Audi'
     }
 }
+function show () {
+console.log(`${this.name} had ${this.age} his car had color ${this.fav-color}`);
+}
+
+function show2 () {
+    
+}
