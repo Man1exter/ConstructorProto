@@ -27,3 +27,15 @@ btnAwesome.addEventListener("click", function(){
 btnAttention.addEventListener("click", function () {
     newDish3.dishes();
 });
+
+
+
+
+const user = {
+    name: 'Mariusz',
+    age: 19,
+    'fav-color': 'black',
+    car : {
+        brand: 'Audi'
+    }
+}
